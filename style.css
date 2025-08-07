@@ -1,0 +1,168 @@
+/* body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  padding: 20px;
+  border: 1px solid black;
+  justify-items: center;
+}
+
+
+input, button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.rec-div{ 
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.rec-btn{
+  margin-left: 75px;
+}
+
+#recipes {
+  margin-top: 20px;
+}
+
+.recipe-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0;
+  max-width: 300px;
+}
+.recipe-card img {
+  border-radius: 8px;
+  display: block;
+} */
+
+
+/* Base Styles */
+
+.lobster-two-bold {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f7f7f7;
+  color: #333;
+  justify-items: center;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+
+input, button {
+  padding: 10px;
+  /* margin: 0; */
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+
+.rec-div{ 
+  justify-self: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  padding: 25px;
+  width: 80%;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h3{
+  text-align: center;
+}
+
+.rec-btn{
+  /* margin-left: 75px; */
+  width: 100%;
+}
+
+
+#ingredientList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#ingredientList li {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#recipes {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.recipe-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  max-width: 300px;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.recipe-card:hover {
+  transform: scale(1.02);
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Layout Wrappers */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 600px) {
+  input, button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .recipe-card {
+    max-width: 100%;
+  }
+}

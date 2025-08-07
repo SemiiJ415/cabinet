@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What to Cook?</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dekko&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="lobster-two-bold">What Can I Cook?</h1>
+    <div class="rec-div">
+      <input type="text" id="ingredientInput" placeholder="Enter an ingredient">
+      <button onclick="addIngredient()">Add</button>
+        <h3>Added Ingredients:</h3>
+      <ul id="ingredientList">
+      </ul>
+      <button onclick="findRecipes()" class="rec-btn">Find Recipes</button>
+    </div>
+    <div id="recipes"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
